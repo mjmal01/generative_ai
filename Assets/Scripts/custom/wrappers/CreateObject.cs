@@ -46,7 +46,7 @@ namespace Wrappers.Core {
             obj.GetComponent<Rigidbody>().isKinematic = true;
             obj.GetComponent<MeshFilter>().mesh = mesh.ToUnityMesh();
             obj.transform.localScale = 0.5f * Vector3.one;
-            
+            //test
             return obj;
         }
 
